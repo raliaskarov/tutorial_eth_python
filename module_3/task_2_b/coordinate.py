@@ -5,7 +5,7 @@ class Coordinate:
     self.latitude = radians(deg_latitude)
     self.longitude = radians(deg_longitude)
 
-  def __str__(self):
+  def __str__(self): 
     return str(self.latitude) + ", " + str(self.longitude)
 
   def distance(self, other):
