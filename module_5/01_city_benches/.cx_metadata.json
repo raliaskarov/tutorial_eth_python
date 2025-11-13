@@ -1,0 +1,13 @@
+{
+  "db_data/data.gpkg": "r",
+  "db_data/baenkli.json": "r",
+  "maps": "r",
+  "maps/world.shp": "r",
+  "maps/world.shx": "r",
+  "maps/swiss.shp": "r",
+  "maps/swiss.shx": "r",
+  "maps/stadtzh.shp": "r",
+  "maps/stadtzh.shx": "r",
+  "maps/zhkreise.shx": "r",
+  "maps/zhkreise.shp": "r"
+}

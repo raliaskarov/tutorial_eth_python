@@ -1,0 +1,11 @@
+{
+  "main.py": "d",
+  "maps": "r",
+  "maps/world.shp": "r",
+  "maps/world.shx": "r",
+  "maps/swiss.shp": "r",
+  "maps/swiss.shx": "r",
+  "maps/moveandchill.gpkg": "r",
+  "maps/zhkreise.shx": "r",
+  "maps/zhkreise.shp": "r"
+}

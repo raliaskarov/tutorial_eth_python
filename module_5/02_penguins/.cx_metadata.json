@@ -1,0 +1,5 @@
+{
+  "pingu": "r",
+  "pingu/penguins_lter.csv": "r",
+  "pingu/penguins_size.csv": "r"
+}
