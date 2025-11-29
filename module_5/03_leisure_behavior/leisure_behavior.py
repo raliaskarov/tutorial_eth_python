@@ -199,7 +199,7 @@ plt.savefig('./cx_out/usage_over_time.png')
 
 # ## View 1 bench daily use
 
-# In[195]:
+# In[211]:
 
 
 # view sit time for one bench
@@ -221,7 +221,7 @@ fig = plot_sit_time(data, sel_id)
 
 # ## View  daily use all benches
 
-# In[196]:
+# In[212]:
 
 
 # plot all sensors
@@ -248,7 +248,9 @@ for i, sensor in enumerate(sensor_list):
 fig.figure.savefig('./cx_out/sit_time_per_bench.png')
 
 
-# In[185]:
+# # Geomapping
+
+# In[214]:
 
 
 ##################################
@@ -270,7 +272,7 @@ plot_data.plot(ax=ax, color="blue", marker="*", markersize=1)
 ax.figure.savefig('./cx_out/whole.png')
 
 
-# In[188]:
+# In[215]:
 
 
 # --- overlays: whole / noisy / busy ---
@@ -289,13 +291,12 @@ for sub, path, color in subsets:
     plt.savefig(path, bbox_inches='tight')
 
 
-# In[189]:
+# In[216]:
 
 
-get_ipython().system('jupyter nbconvert --to script leisure_behavior.ipynb')
 
 
-# In[ ]:
+# In[217]:
 
 
 ### TIME CHECK

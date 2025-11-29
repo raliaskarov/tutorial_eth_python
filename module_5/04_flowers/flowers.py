@@ -141,6 +141,4 @@ rel2.savefig('./cx_out/pair2.png')
 # In[85]:
 
 
-# save to python
-get_ipython().system('jupyter nbconvert --to script leisure_behavior.ipynb')
 
